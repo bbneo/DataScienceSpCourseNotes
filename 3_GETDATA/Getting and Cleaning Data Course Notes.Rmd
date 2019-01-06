@@ -181,8 +181,13 @@ $\pagebreak$
 		* `file <- tempfile()` --> generates empty temp file
 		* `write.table(big.df, file=file, row.names=FALSE, col.names = TRUE, sep = "\t". quote = FALSE)` --> writes the generated data from big.df to the empty temp file
 		* `fread(file)` --> read file and load data = much faster than `read.table()`  
-
-
+* **Summary and further reading **
+    * *Latest Developments*:
+    	[Latest Developments](https://r-forge.r-project.org/scm/viewvc,php/pkg/NEWS?view=markup&root=datatable)
+    * *Differences between data.table and data.frame*
+	[data.table vs. data.frame](http://stackoverflow.com/questions/13618488/what-you-can-do-with-data-frame-that-you-cant-in-data-table)
+    * *Raphael Gottardo's Notes*
+    	[Raphael Gottardo's Notes](https://github.com/raphg/Biostat-578/blob/master/Advanced_data_manipulation.Rpres)
 
 
 ## Reading from MySQL [install.packages("RMySQL"); library(RMySQL)]
